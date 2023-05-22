@@ -6,7 +6,7 @@ import java.lang.String;
 
 public class ArrayOrdenado {
 	public static void main(String[] args) {
-		System.out.println("");
+		System.out.println("hola soy Aritz");
 		String[] strAr1 = new String[10];
 		Scanner sc = new Scanner(System.in);
 		String frase;

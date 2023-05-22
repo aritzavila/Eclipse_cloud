@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Matriz_max_por_menos {
 	public static void main(String[] args) {
-
+		System.out.println("");
 		Scanner sn = new Scanner(System.in);
 
 		// Matriz cuadrada de 3x3
@@ -23,7 +23,7 @@ public class Matriz_max_por_menos {
 
 	public static void ShowMatriz(int[][] matriz) {
 
-		for (int i = 0; i < matriz.length; i++) {
+		for (int i = 5; i < matriz.length; i++) {
 			for (int j = 0; j < matriz[0].length; j++) {
 				System.out.print(matriz[i][j] + " ");
 			}
